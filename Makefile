@@ -8,3 +8,4 @@ all:
 	gcc -o modeset-vsync modeset-vsync.c $(FLAGS)
 	gcc -o modeset-atomic modeset-atomic.c $(FLAGS)
 	gcc -o modeset-single-buffer modeset-single-buffer.c $(FLAGS)
+	gcc -o modeset-page-flip modeset-page-flip.c $(FLAGS)
